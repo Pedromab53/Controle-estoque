@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Estoque</title>
+    <!-- Adicionando Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-image">
+        <div class="container">
+            <div class="text-center mt-5">
+                <h1 class="display-4">Controle de Estoque</h1>
+                <p class="lead">Bem-vindo ao sistema de controle de estoque!</p>
+            </div>
+            <div class="mt-5">
+                <input type="text" id="productInput" class="form-control mb-2" placeholder="Nome do Produto">
+                <input type="number" id="quantityInput" class="form-control mb-2" placeholder="Quantidade">
+                <button id="addProductBtn" class="btn btn-primary btn-block">Adicionar Produto</button>
+                <ul id="productList" class="list-group mt-3"></ul>
+            </div>
+        </div>
+    </div>
+    <!-- Adicionando Bootstrap JS (opcional, para alguns recursos do Bootstrap) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

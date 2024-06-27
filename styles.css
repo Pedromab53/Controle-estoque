@@ -1,0 +1,32 @@
+.background-image {
+    background-image: url('img/imagemdefundo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    padding: 20px;
+}
+
+#taskInput {
+    width: 100%;
+}
+
+#taskList {
+    padding: 0;
+}
+
+.list-group-item {
+    border: none;
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
